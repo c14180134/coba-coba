@@ -33,7 +33,7 @@ export class AppComponent  {
         
       }
       var m=0
-      while(m<k&&k<b ){
+      while(m<k&&k<=b ){
         m++;
         document.writeln("O")
       }
