@@ -1,4 +1,10 @@
 <hello name="{{ name }}"></hello>
 <p>
-  Start editing to see some magic happen :)
+  masukkan input:
 </p>
+<input [(ngModel)]="a" type="text"> pangkat
+  <input [(ngModel)]="b" type="text">
+<button (click)="hitung(a,b)">tekan tombol</button>
+  {{hasil}}
+
+
